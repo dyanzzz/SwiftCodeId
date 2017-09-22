@@ -1,0 +1,4 @@
+title: Slider
+modelClass: AyatMaulana\Swiftid\Models\HomeSlider
+toolbar:
+    buttons: reorder_toolbar

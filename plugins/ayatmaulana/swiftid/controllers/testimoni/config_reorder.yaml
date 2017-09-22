@@ -1,0 +1,4 @@
+title: Testimoni
+modelClass: AyatMaulana\Swiftid\Models\Testimoni
+toolbar:
+    buttons: reorder_toolbar

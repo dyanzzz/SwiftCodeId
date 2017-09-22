@@ -1,0 +1,24 @@
+plugin:
+    name: 'ayatmaulana.swiftid::lang.plugin.name'
+    description: 'ayatmaulana.swiftid::lang.plugin.description'
+    author: 'Ayat Maulana'
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    swiftid:
+        label: 'Swift ID'
+        url: ayatmaulana/swiftid/slider
+        icon: icon-apple
+        sideMenu:
+            slider:
+                label: Slider
+                url: ayatmaulana/swiftid/slider
+                icon: icon-sitemap
+            testimoni:
+                label: Testimoni
+                url: ayatmaulana/swiftid/testimoni
+                icon: icon-slack
+            web-name:
+                label: 'Web Name'
+                url: ayatmaulana/swiftid/webname
+                icon: icon-sitemap

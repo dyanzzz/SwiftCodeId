@@ -1,0 +1,28 @@
+fields:
+    name:
+        label: Name
+        oc.commentPosition: ''
+        span: full
+        type: text
+    position:
+        label: Position
+        oc.commentPosition: ''
+        span: full
+        type: text
+    testimoni:
+        label: Testimoni
+        oc.commentPosition: ''
+        span: full
+        type: text
+    picture:
+        label: 'Upload Picture'
+        oc.commentPosition: ''
+        mode: image
+        imageWidth: '100'
+        imageHeight: '100'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload

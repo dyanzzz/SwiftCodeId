@@ -1,0 +1,4 @@
+columns:
+    name:
+        label: 'Web Name'
+        type: text

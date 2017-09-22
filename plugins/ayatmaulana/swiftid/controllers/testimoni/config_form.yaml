@@ -1,0 +1,10 @@
+name: Testimoni
+form: $/ayatmaulana/swiftid/models/testimoni/fields.yaml
+modelClass: AyatMaulana\Swiftid\Models\Testimoni
+defaultRedirect: ayatmaulana/swiftid/testimoni
+create:
+    redirect: 'ayatmaulana/swiftid/testimoni/update/:id'
+    redirectClose: ayatmaulana/swiftid/testimoni
+update:
+    redirect: ayatmaulana/swiftid/testimoni
+    redirectClose: ayatmaulana/swiftid/testimoni

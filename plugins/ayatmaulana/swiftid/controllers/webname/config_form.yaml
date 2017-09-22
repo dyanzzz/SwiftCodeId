@@ -1,0 +1,10 @@
+name: WebName
+form: $/ayatmaulana/swiftid/models/webname/fields.yaml
+modelClass: AyatMaulana\Swiftid\Models\WebName
+defaultRedirect: ayatmaulana/swiftid/webname
+create:
+    redirect: 'ayatmaulana/swiftid/webname/update/:id'
+    redirectClose: ayatmaulana/swiftid/webname
+update:
+    redirect: ayatmaulana/swiftid/webname
+    redirectClose: ayatmaulana/swiftid/webname

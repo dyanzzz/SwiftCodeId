@@ -1,0 +1,10 @@
+name: Slider
+form: $/ayatmaulana/swiftid/models/homeslider/fields.yaml
+modelClass: AyatMaulana\Swiftid\Models\HomeSlider
+defaultRedirect: ayatmaulana/swiftid/slider
+create:
+    redirect: 'ayatmaulana/swiftid/slider/update/:id'
+    redirectClose: ayatmaulana/swiftid/slider
+update:
+    redirect: ayatmaulana/swiftid/slider
+    redirectClose: ayatmaulana/swiftid/slider

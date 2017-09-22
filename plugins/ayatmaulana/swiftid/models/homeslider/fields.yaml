@@ -1,0 +1,12 @@
+fields:
+    slider_title:
+        label: 'Slider Title'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    slider_desc:
+        label: 'Text area'
+        size: large
+        oc.commentPosition: ''
+        span: full
+        type: textarea

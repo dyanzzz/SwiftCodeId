@@ -1,0 +1,11 @@
+columns:
+    slider_title:
+        label: 'Slider Title'
+        type: text
+        searchable: true
+        sortable: true
+    slider_desc:
+        label: 'Slider Desc'
+        type: text
+        searchable: true
+        sortable: true

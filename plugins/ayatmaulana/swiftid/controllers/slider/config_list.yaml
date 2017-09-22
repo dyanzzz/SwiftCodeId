@@ -1,0 +1,11 @@
+list: $/ayatmaulana/swiftid/models/homeslider/columns.yaml
+modelClass: AyatMaulana\Swiftid\Models\HomeSlider
+title: Slider
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'ayatmaulana/swiftid/slider/update/:id'

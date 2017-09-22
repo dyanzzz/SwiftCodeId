@@ -1,0 +1,16 @@
+columns:
+    name:
+        label: Name
+        type: text
+        searchable: true
+        sortable: true
+    position:
+        label: Position
+        type: text
+        searchable: true
+        sortable: true
+    testimoni:
+        label: Testimoni
+        type: text
+        searchable: true
+        sortable: true
