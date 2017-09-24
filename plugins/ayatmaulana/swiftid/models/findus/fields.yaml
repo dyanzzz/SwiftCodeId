@@ -1,0 +1,21 @@
+fields:
+    url:
+        label: Url
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    name:
+        label: Name
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    picture:
+        label: Picture
+        oc.commentPosition: ''
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload

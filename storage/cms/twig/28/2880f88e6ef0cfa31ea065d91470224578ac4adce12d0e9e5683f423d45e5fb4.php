@@ -68,7 +68,7 @@ class __TwigTemplate_75b632a15c50f4431e4e553f232da9aae8131b6927c6cf069b2c18ec79c
   </div>
 </section>
 
-<section id=\"lt-bottom\" class=\"lt-section section\">
+<!-- <section id=\"lt-bottom\" class=\"lt-section section\">
   <div class=\"lt-container container\">
     <div class=\"lt-content lt-bottom-content\">
       ";
@@ -79,7 +79,7 @@ class __TwigTemplate_75b632a15c50f4431e4e553f232da9aae8131b6927c6cf069b2c18ec79c
         // line 37
         echo "    </div>
   </div>
-</section>
+</section> -->
 
 <section id=\"lt-extension\" class=\"lt-section section\">
   <div class=\"lt-container container\">
@@ -152,13 +152,13 @@ class __TwigTemplate_75b632a15c50f4431e4e553f232da9aae8131b6927c6cf069b2c18ec79c
   </div>
 </section>
 
-<section id=\"lt-bottom\" class=\"lt-section section\">
+<!-- <section id=\"lt-bottom\" class=\"lt-section section\">
   <div class=\"lt-container container\">
     <div class=\"lt-content lt-bottom-content\">
       {% partial \"pages-home/bottom\" %}
     </div>
   </div>
-</section>
+</section> -->
 
 <section id=\"lt-extension\" class=\"lt-section section\">
   <div class=\"lt-container container\">

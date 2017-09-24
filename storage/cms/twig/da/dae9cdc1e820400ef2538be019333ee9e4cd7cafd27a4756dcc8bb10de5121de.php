@@ -23,14 +23,6 @@ class __TwigTemplate_ac3c439ebcd69f53ab89ba5a64eccc5fabf2edb56c201d6dc36c54f643e
         echo $this->env->getExtension('CMS')->contentFunction("copyright"        , $context['__cms_content_params']        );
         unset($context['__cms_content_params']);
         // line 3
-        echo "</div>
-<div class=\"lt-row row\">
-  ";
-        // line 5
-        $context['__cms_content_params'] = [];
-        echo $this->env->getExtension('CMS')->contentFunction("social"        , $context['__cms_content_params']        );
-        unset($context['__cms_content_params']);
-        // line 6
         echo "</div>";
     }
 
@@ -46,7 +38,7 @@ class __TwigTemplate_ac3c439ebcd69f53ab89ba5a64eccc5fabf2edb56c201d6dc36c54f643e
 
     public function getDebugInfo()
     {
-        return array (  34 => 6,  30 => 5,  26 => 3,  22 => 2,  19 => 1,);
+        return array (  26 => 3,  22 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -61,9 +53,6 @@ class __TwigTemplate_ac3c439ebcd69f53ab89ba5a64eccc5fabf2edb56c201d6dc36c54f643e
     {
         return new Twig_Source("<div class=\"lt-row row\">
   {% content \"copyright\" %}
-</div>
-<div class=\"lt-row row\">
-  {% content \"social\" %}
 </div>", "/home/ayatmaulana/PROJECT/indosystem/swiftlangid.dev/themes/octaskin/partials/pages-all/copyright.htm", "");
     }
 }

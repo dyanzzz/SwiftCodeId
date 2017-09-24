@@ -1,0 +1,10 @@
+name: FindUs
+form: $/ayatmaulana/swiftid/models/findus/fields.yaml
+modelClass: AyatMaulana\Swiftid\Models\FindUs
+defaultRedirect: ayatmaulana/swiftid/findus
+create:
+    redirect: 'ayatmaulana/swiftid/findus/update/:id'
+    redirectClose: ayatmaulana/swiftid/findus
+update:
+    redirect: ayatmaulana/swiftid/findus
+    redirectClose: ayatmaulana/swiftid/findus

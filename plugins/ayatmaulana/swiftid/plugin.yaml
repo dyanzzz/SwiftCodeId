@@ -22,3 +22,7 @@ navigation:
                 label: 'Web Name'
                 url: ayatmaulana/swiftid/webname
                 icon: icon-sitemap
+            find-us:
+                label: 'Find Us'
+                url: ayatmaulana/swiftid/findus
+                icon: icon-smile-o

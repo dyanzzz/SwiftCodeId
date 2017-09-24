@@ -1,4 +1,4 @@
-1506065894a:1:{s:12:"octaskin.htm";a:6:{s:8:"fileName";s:12:"octaskin.htm";s:7:"content";s:3077:"description = "Octaskin Layout"
+1506267383a:1:{s:12:"octaskin.htm";a:6:{s:8:"fileName";s:12:"octaskin.htm";s:7:"content";s:2914:"description = "Octaskin Layout"
 ==
 <!DOCTYPE html>
 <html lang="en">
@@ -53,13 +53,7 @@
 
       {% page %}
 
-      <section id="lt-footer" class="lt-section section">
-        <div class="lt-container container">
-          <div class="lt-content lt-footer-content">
-            {% partial "pages-all/footer" %}
-          </div>
-        </div>
-      </section>
+      
 
       <section id="lt-copyright" class="lt-section section">
         <div class="lt-container container">
@@ -87,8 +81,7 @@
       </script>
     {% endif %}
   </body>
-</html>
-";s:5:"mtime";i:1505881523;s:6:"markup";s:3041:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1506264775;s:6:"markup";s:2879:"<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -141,13 +134,7 @@
 
       {% page %}
 
-      <section id="lt-footer" class="lt-section section">
-        <div class="lt-container container">
-          <div class="lt-content lt-footer-content">
-            {% partial "pages-all/footer" %}
-          </div>
-        </div>
-      </section>
+      
 
       <section id="lt-copyright" class="lt-section section">
         <div class="lt-container container">

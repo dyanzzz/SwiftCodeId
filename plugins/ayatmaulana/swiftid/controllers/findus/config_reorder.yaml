@@ -1,0 +1,4 @@
+title: FindUs
+modelClass: AyatMaulana\Swiftid\Models\FindUs
+toolbar:
+    buttons: reorder_toolbar

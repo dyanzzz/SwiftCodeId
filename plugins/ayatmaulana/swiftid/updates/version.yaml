@@ -12,3 +12,6 @@
 1.0.5:
     - 'Created table ayatmaulana_swiftid_webname'
     - builder_table_create_ayatmaulana_swiftid_webname.php
+1.0.6:
+    - 'Created table ayatmaulana_swiftid_find_us'
+    - builder_table_create_ayatmaulana_swiftid_find_us.php

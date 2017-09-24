@@ -1,4 +1,4 @@
-1506064238a:1:{s:24:"pages-home/slideshow.htm";a:6:{s:8:"fileName";s:24:"pages-home/slideshow.htm";s:7:"content";s:1337:"[builderList blogs]
+1506267383a:1:{s:24:"pages-home/slideshow.htm";a:6:{s:8:"fileName";s:24:"pages-home/slideshow.htm";s:7:"content";s:1337:"[builderList blogs]
 modelClass = "AyatMaulana\Swiftid\Models\HomeSlider"
 scope = "-"
 displayColumn = "slider_title"

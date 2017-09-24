@@ -18,31 +18,31 @@ class __TwigTemplate_e965baa9873f9f224be6fadb8795e7c223fc6add07dba9bea9a35a37034
         // line 1
         echo "<div class=\"lt-row row\">
   <div class=\"center\">
+    ";
+        // line 3
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable($this->getAttribute(($context["FindUs"] ?? null), "records", array()));
+        foreach ($context['_seq'] as $context["_key"] => $context["us"]) {
+            // line 4
+            echo "    
     <div class=\"lt-col col l3 m6 s12\">
-      <a href=\"https://laravel.com/\" target=\"_blank\"><img class=\"lt-grayscale-opacity-hover-filter responsive-img\" src=\"";
-        // line 4
-        echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/img/pages/home/utility/img-01.png");
-        echo "\" alt=\"Laravel\"></a>
+      <a href=\"";
+            // line 6
+            echo twig_escape_filter($this->env, $this->getAttribute($context["us"], "url", array()), "html", null, true);
+            echo "\" target=\"_blank\"><img class=\"lt-grayscale-opacity-hover-filter responsive-img\" src=\"";
+            echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["us"], "picture", array()), "path", array()), "html", null, true);
+            echo "\" alt=\"";
+            echo twig_escape_filter($this->env, $this->getAttribute($context["us"], "name", array()), "html", null, true);
+            echo "\"></a>
     </div>
-    <div class=\"lt-col col l3 m6 s12\">
-      <a href=\"https://octobercms.com/\" target=\"_blank\"><img class=\"lt-grayscale-opacity-hover-filter responsive-img\" src=\"";
-        // line 7
-        echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/img/pages/home/utility/img-02.png");
-        echo "\" alt=\"OctoberCMS\"></a>
-    </div>
-    <div class=\"lt-col col l3 m6 s12\">
-      <a href=\"http://materializecss.com/\" target=\"_blank\"><img class=\"lt-grayscale-opacity-hover-filter responsive-img\" src=\"";
+   
+   ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['us'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
         // line 10
-        echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/img/pages/home/utility/img-03.png");
-        echo "\" alt=\"Materialize CSS\"></a>
-    </div>
-    <div class=\"lt-col col l3 m6 s12\">
-    <a href=\"https://github.com/\" target=\"_blank\">  <img class=\"lt-grayscale-opacity-hover-filter responsive-img\" src=\"";
-        // line 13
-        echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/img/pages/home/utility/img-04.png");
-        echo "\" alt=\"Github\"></a>
-    </div>
-  </div>
+        echo "  </div>
 </div>";
     }
 
@@ -58,7 +58,7 @@ class __TwigTemplate_e965baa9873f9f224be6fadb8795e7c223fc6add07dba9bea9a35a37034
 
     public function getDebugInfo()
     {
-        return array (  42 => 13,  36 => 10,  30 => 7,  24 => 4,  19 => 1,);
+        return array (  45 => 10,  31 => 6,  27 => 4,  23 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -73,18 +73,13 @@ class __TwigTemplate_e965baa9873f9f224be6fadb8795e7c223fc6add07dba9bea9a35a37034
     {
         return new Twig_Source("<div class=\"lt-row row\">
   <div class=\"center\">
+    {% for us in FindUs.records %}
+    
     <div class=\"lt-col col l3 m6 s12\">
-      <a href=\"https://laravel.com/\" target=\"_blank\"><img class=\"lt-grayscale-opacity-hover-filter responsive-img\" src=\"{{ 'assets/img/pages/home/utility/img-01.png'|theme }}\" alt=\"Laravel\"></a>
+      <a href=\"{{ us.url }}\" target=\"_blank\"><img class=\"lt-grayscale-opacity-hover-filter responsive-img\" src=\"{{ us.picture.path }}\" alt=\"{{ us.name }}\"></a>
     </div>
-    <div class=\"lt-col col l3 m6 s12\">
-      <a href=\"https://octobercms.com/\" target=\"_blank\"><img class=\"lt-grayscale-opacity-hover-filter responsive-img\" src=\"{{ 'assets/img/pages/home/utility/img-02.png'|theme }}\" alt=\"OctoberCMS\"></a>
-    </div>
-    <div class=\"lt-col col l3 m6 s12\">
-      <a href=\"http://materializecss.com/\" target=\"_blank\"><img class=\"lt-grayscale-opacity-hover-filter responsive-img\" src=\"{{ 'assets/img/pages/home/utility/img-03.png'|theme }}\" alt=\"Materialize CSS\"></a>
-    </div>
-    <div class=\"lt-col col l3 m6 s12\">
-    <a href=\"https://github.com/\" target=\"_blank\">  <img class=\"lt-grayscale-opacity-hover-filter responsive-img\" src=\"{{ 'assets/img/pages/home/utility/img-04.png'|theme }}\" alt=\"Github\"></a>
-    </div>
+   
+   {% endfor %}
   </div>
 </div>", "/home/ayatmaulana/PROJECT/indosystem/swiftlangid.dev/themes/octaskin/partials/pages-home/utility.htm", "");
     }

@@ -148,46 +148,35 @@ class __TwigTemplate_cc323af4b5cc9011290fc589c0643e7e66c0b39ea0f81e502e7a2b3aba6
         echo $this->env->getExtension('CMS')->pageFunction();
         // line 53
         echo "
-      <section id=\"lt-footer\" class=\"lt-section section\">
-        <div class=\"lt-container container\">
-          <div class=\"lt-content lt-footer-content\">
-            ";
-        // line 57
-        $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('CMS')->partialFunction("pages-all/footer"        , $context['__cms_partial_params']        );
-        unset($context['__cms_partial_params']);
-        // line 58
-        echo "          </div>
-        </div>
-      </section>
+      
 
       <section id=\"lt-copyright\" class=\"lt-section section\">
         <div class=\"lt-container container\">
           <div class=\"lt-content lt-copyright-content\">
             ";
-        // line 65
+        // line 59
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("pages-all/copyright"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 66
+        // line 60
         echo "          </div>
         </div>
       </section>
     </div>
 
     <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/";
-        // line 71
+        // line 65
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["this"] ?? null), "theme", array()), "jQuery_version", array()), "html", null, true);
         echo "/jquery.min.js\"></script>
     <script src=\"";
-        // line 72
+        // line 66
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter(array(0 => "assets/js/materialize.min.js", 1 => "assets/js/theme.js"));
         echo "\"></script>
 
     ";
-        // line 74
+        // line 68
         if ($this->getAttribute($this->getAttribute(($context["this"] ?? null), "theme", array()), "load_octobercms_framework", array())) {
-            // line 75
+            // line 69
             echo "      ";
             echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
@@ -195,37 +184,37 @@ class __TwigTemplate_cc323af4b5cc9011290fc589c0643e7e66c0b39ea0f81e502e7a2b3aba6
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
             echo '<link rel="stylesheet" property="stylesheet" href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css">'.PHP_EOL;
-            // line 76
+            // line 70
             echo "    ";
         }
-        // line 77
+        // line 71
         echo "
     ";
-        // line 78
+        // line 72
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("_addons/js"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 79
+        // line 73
         echo "
     ";
-        // line 80
+        // line 74
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
-        // line 81
+        // line 75
         echo "
     ";
-        // line 82
+        // line 76
         if ($this->getAttribute($this->getAttribute(($context["this"] ?? null), "theme", array()), "custom_js", array())) {
-            // line 83
+            // line 77
             echo "      <script>
       ";
-            // line 84
+            // line 78
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["this"] ?? null), "theme", array()), "custom_js", array()), "html", null, true);
             echo "
       </script>
     ";
         }
-        // line 87
+        // line 81
         echo "  </body>
 </html>";
     }
@@ -242,7 +231,7 @@ class __TwigTemplate_cc323af4b5cc9011290fc589c0643e7e66c0b39ea0f81e502e7a2b3aba6
 
     public function getDebugInfo()
     {
-        return array (  229 => 87,  223 => 84,  220 => 83,  218 => 82,  215 => 81,  212 => 80,  209 => 79,  205 => 78,  202 => 77,  199 => 76,  191 => 75,  189 => 74,  184 => 72,  180 => 71,  173 => 66,  169 => 65,  160 => 58,  156 => 57,  150 => 53,  148 => 52,  142 => 48,  138 => 47,  126 => 42,  123 => 41,  117 => 38,  114 => 37,  112 => 36,  109 => 35,  106 => 34,  103 => 33,  99 => 32,  94 => 30,  91 => 29,  85 => 27,  83 => 26,  80 => 25,  76 => 23,  74 => 22,  71 => 21,  67 => 19,  65 => 18,  62 => 17,  56 => 15,  54 => 14,  49 => 12,  45 => 11,  39 => 10,  35 => 9,  31 => 8,  27 => 7,  19 => 1,);
+        return array (  218 => 81,  212 => 78,  209 => 77,  207 => 76,  204 => 75,  201 => 74,  198 => 73,  194 => 72,  191 => 71,  188 => 70,  180 => 69,  178 => 68,  173 => 66,  169 => 65,  162 => 60,  158 => 59,  150 => 53,  148 => 52,  142 => 48,  138 => 47,  126 => 42,  123 => 41,  117 => 38,  114 => 37,  112 => 36,  109 => 35,  106 => 34,  103 => 33,  99 => 32,  94 => 30,  91 => 29,  85 => 27,  83 => 26,  80 => 25,  76 => 23,  74 => 22,  71 => 21,  67 => 19,  65 => 18,  62 => 17,  56 => 15,  54 => 14,  49 => 12,  45 => 11,  39 => 10,  35 => 9,  31 => 8,  27 => 7,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -308,13 +297,7 @@ class __TwigTemplate_cc323af4b5cc9011290fc589c0643e7e66c0b39ea0f81e502e7a2b3aba6
 
       {% page %}
 
-      <section id=\"lt-footer\" class=\"lt-section section\">
-        <div class=\"lt-container container\">
-          <div class=\"lt-content lt-footer-content\">
-            {% partial \"pages-all/footer\" %}
-          </div>
-        </div>
-      </section>
+      
 
       <section id=\"lt-copyright\" class=\"lt-section section\">
         <div class=\"lt-container container\">
