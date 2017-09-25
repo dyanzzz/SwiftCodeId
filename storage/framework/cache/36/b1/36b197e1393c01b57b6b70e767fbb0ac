@@ -1,0 +1,66 @@
+1506328136a:1:{s:24:"pages-home/slideshow.htm";a:6:{s:8:"fileName";s:24:"pages-home/slideshow.htm";s:7:"content";s:1346:"[builderList blogs]
+modelClass = "AyatMaulana\Swiftid\Models\HomeSlider"
+scope = "-"
+displayColumn = "slider_title"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+<div class="lt-row row">
+  
+  
+  <div class="lt-col col s12">
+    <div class="lt-slider slider fullscreen">
+      <ul class="slides">
+      
+      {% for blog in blogs.records %}
+      
+        <li>
+          <img src="{{ 'assets/img/pages/home/slideshow/img-01.jpg'|theme }}" alt="image">
+          <div class="caption center-align">
+            <h2 class="lt-slider-title">{{ blog.slider_title }}</h2>
+            <h5 class="lt-slider-subtitle">{{ blog.slider_desc }}</h5>
+            <!-- <div class="lt-slider-button">
+              <a href="https://octobercms.com/theme/laratify-octobercms-octaskin" target="_blank" class="waves-effect waves-light btn-large primary-color-background">Download<i class="material-icons right">input</i></a>
+            </div>
+            <div class="lt-slider-links">
+              <a href="https://m.do.co/c/396efaba7c20" target="_blank">View Server</a> or <a href="https://www.laratify.com/" target="_blank">Contact Us</a>
+            </div> -->
+          </div>
+        </li>
+       
+       {% endfor %}
+       
+      </ul>
+    </div>
+  </div>
+</div>";s:5:"mtime";i:1506311310;s:6:"markup";s:1117:"<div class="lt-row row">
+  
+  
+  <div class="lt-col col s12">
+    <div class="lt-slider slider fullscreen">
+      <ul class="slides">
+      
+      {% for blog in blogs.records %}
+      
+        <li>
+          <img src="{{ 'assets/img/pages/home/slideshow/img-01.jpg'|theme }}" alt="image">
+          <div class="caption center-align">
+            <h2 class="lt-slider-title">{{ blog.slider_title }}</h2>
+            <h5 class="lt-slider-subtitle">{{ blog.slider_desc }}</h5>
+            <!-- <div class="lt-slider-button">
+              <a href="https://octobercms.com/theme/laratify-octobercms-octaskin" target="_blank" class="waves-effect waves-light btn-large primary-color-background">Download<i class="material-icons right">input</i></a>
+            </div>
+            <div class="lt-slider-links">
+              <a href="https://m.do.co/c/396efaba7c20" target="_blank">View Server</a> or <a href="https://www.laratify.com/" target="_blank">Contact Us</a>
+            </div> -->
+          </div>
+        </li>
+       
+       {% endfor %}
+       
+      </ul>
+    </div>
+  </div>
+</div>";s:4:"code";N;s:17:"builderList blogs";a:7:{s:10:"modelClass";s:37:"AyatMaulana\Swiftid\Models\HomeSlider";s:5:"scope";s:1:"-";s:13:"displayColumn";s:12:"slider_title";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}}}

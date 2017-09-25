@@ -1,0 +1,20 @@
+[builderList FindUs]
+modelClass = "AyatMaulana\Swiftid\Models\FindUs"
+scope = "-"
+displayColumn = "url"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+<div class="lt-row row">
+  <div class="center">
+    {% for us in FindUs.records %}
+    
+    <div class="lt-col col l3 m6 s12">
+      <a href="{{ us.url }}" target="_blank"><img class="lt-grayscale-opacity-hover-filter responsive-img" src="{{ us.picture.path }}" alt="{{ us.name }}"></a>
+    </div>
+   
+   {% endfor %}
+  </div>
+</div>
