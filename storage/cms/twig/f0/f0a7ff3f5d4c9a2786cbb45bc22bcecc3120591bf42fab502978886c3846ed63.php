@@ -44,11 +44,11 @@ class __TwigTemplate_55b91be33f7a355871c07c2f2811de4676e6afd21cba2123ac48bf6a286
         echo "\">About</a></li>
           <li class=\"";
         // line 10
-        if (($this->getAttribute($this->getAttribute(($context["this"] ?? null), "page", array()), "id", array()) == "portfolio")) {
+        if (($this->getAttribute($this->getAttribute(($context["this"] ?? null), "page", array()), "id", array()) == "article")) {
             echo "active";
         }
         echo "\"><a href=\"";
-        echo $this->env->getExtension('Cms\Twig\Extension')->pageFilter("portfolio");
+        echo $this->env->getExtension('Cms\Twig\Extension')->pageFilter("article");
         echo "\">Article</a></li>
           
         </ul>
@@ -71,11 +71,11 @@ class __TwigTemplate_55b91be33f7a355871c07c2f2811de4676e6afd21cba2123ac48bf6a286
         echo "\">About</a></li>
           <li class=\"";
         // line 16
-        if (($this->getAttribute($this->getAttribute(($context["this"] ?? null), "page", array()), "id", array()) == "portfolio")) {
+        if (($this->getAttribute($this->getAttribute(($context["this"] ?? null), "page", array()), "id", array()) == "article")) {
             echo "active";
         }
         echo "\"><a href=\"";
-        echo $this->env->getExtension('Cms\Twig\Extension')->pageFilter("portfolio");
+        echo $this->env->getExtension('Cms\Twig\Extension')->pageFilter("article");
         echo "\">Article</a></li>
           
         </ul>
@@ -119,13 +119,13 @@ class __TwigTemplate_55b91be33f7a355871c07c2f2811de4676e6afd21cba2123ac48bf6a286
         <ul class=\"right hide-on-med-and-down\">
           <li class=\"{% if this.page.id == 'home' %}active{% endif %}\"><a href=\"{{ 'home'|page }}\">Home</a></li>
           <li class=\"{% if this.page.id == 'about' %}active{% endif %}\"><a href=\"{{ 'about'|page }}\">About</a></li>
-          <li class=\"{% if this.page.id == 'portfolio' %}active{% endif %}\"><a href=\"{{ 'portfolio'|page }}\">Article</a></li>
+          <li class=\"{% if this.page.id == 'article' %}active{% endif %}\"><a href=\"{{ 'article'|page }}\">Article</a></li>
           
         </ul>
         <ul class=\"side-nav\" id=\"mobile-menu\">
           <li class=\"{% if this.page.id == 'home' %}active{% endif %}\"><a href=\"{{ 'home'|page }}\">Home</a></li>
           <li class=\"{% if this.page.id == 'about' %}active{% endif %}\"><a href=\"{{ 'about'|page }}\">About</a></li>
-          <li class=\"{% if this.page.id == 'portfolio' %}active{% endif %}\"><a href=\"{{ 'portfolio'|page }}\">Article</a></li>
+          <li class=\"{% if this.page.id == 'article' %}active{% endif %}\"><a href=\"{{ 'article'|page }}\">Article</a></li>
           
         </ul>
       </div>

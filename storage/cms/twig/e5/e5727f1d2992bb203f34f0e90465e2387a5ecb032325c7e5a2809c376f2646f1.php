@@ -26,7 +26,7 @@ class __TwigTemplate_82c4905a1de68afbc51004a4113e203bcf05bd13b7acda5c8107682df03
       <div class=\"lt-parallax-content\">
         <div class=\"valign-wrapper\" style=\"height: 400px;\">
           <div class=\"valign\">
-            <h2 class=\"lt-title\">About Octaskin</h2>
+            <h2 class=\"lt-title\">About Swift Indonesia</h2>
             <p class=\"lt-subtitle flow-text\">Who We Are</p>
           </div>
         </div>
@@ -68,7 +68,7 @@ class __TwigTemplate_82c4905a1de68afbc51004a4113e203bcf05bd13b7acda5c8107682df03
       <div class=\"lt-parallax-content\">
         <div class=\"valign-wrapper\" style=\"height: 400px;\">
           <div class=\"valign\">
-            <h2 class=\"lt-title\">About Octaskin</h2>
+            <h2 class=\"lt-title\">About Swift Indonesia</h2>
             <p class=\"lt-subtitle flow-text\">Who We Are</p>
           </div>
         </div>

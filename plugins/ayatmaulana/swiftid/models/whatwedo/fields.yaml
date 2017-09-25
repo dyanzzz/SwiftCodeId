@@ -1,0 +1,42 @@
+fields:
+    title:
+        label: Title
+        oc.commentPosition: ''
+        span: full
+        type: text
+    desc:
+        label: Description
+        oc.commentPosition: ''
+        span: full
+        type: text
+    icon:
+        label: Icon
+        oc.commentPosition: ''
+        options:
+            pe-7s-album: pe-7s-album
+            pe-7s-arc: pe-7s-arc
+            pe-7s-back-2: pe-7s-back-2
+            pe-7s-bandaid: pe-7s-bandaid
+            pe-7s-car: pe-7s-car
+            pe-7s-diamond: pe-7s-diamond
+            pe-7s-door-lock: pe-7s-door-lock
+            pe-7s-eyedropper: pe-7s-eyedropper
+            pe-7s-female: pe-7s-female
+            pe-7s-gym: pe-7s-gym
+            pe-7s-hammer: pe-7s-hammer
+            pe-7s-headphones: pe-7s-headphones
+            pe-7s-helm: pe-7s-helm
+            pe-7s-hourglass: pe-7s-hourglass
+            pe-7s-magic-wand: pe-7s-magic-wand
+            pe-7s-rocket: pe-7s-rocket
+            pe-7s-male: pe-7s-male
+            pe-7s-map-2: pe-7s-map-2
+            pe-7s-paint-bucket: pe-7s-paint-bucket
+            pe-7s-pendrive: pe-7s-pendrive
+            pe-7s-photo: pe-7s-photo
+            pe-7s-piggy: pe-7s-piggy
+            pe-7s-refresh-2: pe-7s-refresh-2
+            pe-7s-shield: pe-7s-shield
+            pe-7s-cloud-download: pe-7s-cloud-download
+        span: full
+        type: dropdown

@@ -26,3 +26,20 @@ navigation:
                 label: 'Find Us'
                 url: ayatmaulana/swiftid/findus
                 icon: icon-smile-o
+    about:
+        label: About
+        url: ayatmaulana/swiftid/whatwedo
+        icon: icon-adjust
+        sideMenu:
+            whatwedo:
+                label: 'What We Do'
+                url: ayatmaulana/swiftid/whatwedo
+                icon: icon-sliders
+            picture:
+                label: Picture
+                url: ayatmaulana/swiftid/aboutpicture
+                icon: icon-picture-o
+            aboutdesc:
+                label: Description
+                url: ayatmaulana/swiftid/aboutdesc
+                icon: icon-sitemap

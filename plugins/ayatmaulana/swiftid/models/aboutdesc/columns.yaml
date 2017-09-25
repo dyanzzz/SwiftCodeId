@@ -1,0 +1,4 @@
+columns:
+    desc:
+        label: Description
+        type: text

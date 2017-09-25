@@ -26,7 +26,7 @@ class __TwigTemplate_4951a9ec21331e843c5f9848a09da0c15253b89fd49d65e7b8587863d29
 
   <div class=\"lt-vertical-spacer\"></div>
 
-  <div class=\"lt-row row\">
+  <!-- <div class=\"lt-row row\">
     <div class=\"lt-col col m4 s12\">
       <i class=\"large pe-7s-diamond primary-color-text\"></i>
       <h5>Vectors</h5>
@@ -46,7 +46,7 @@ class __TwigTemplate_4951a9ec21331e843c5f9848a09da0c15253b89fd49d65e7b8587863d29
       <h2 class=\"lt-title primary-color-text\">256</h2>
     </div>
   </div>
-</div>
+  </div> -->
 
 <div class=\"lt-vertical-spacer\"></div>
 <div class=\"lt-vertical-spacer\"></div>
@@ -208,7 +208,7 @@ class __TwigTemplate_4951a9ec21331e843c5f9848a09da0c15253b89fd49d65e7b8587863d29
 
   <div class=\"lt-vertical-spacer\"></div>
 
-  <div class=\"lt-row row\">
+  <!-- <div class=\"lt-row row\">
     <div class=\"lt-col col m4 s12\">
       <i class=\"large pe-7s-diamond primary-color-text\"></i>
       <h5>Vectors</h5>
@@ -228,7 +228,7 @@ class __TwigTemplate_4951a9ec21331e843c5f9848a09da0c15253b89fd49d65e7b8587863d29
       <h2 class=\"lt-title primary-color-text\">256</h2>
     </div>
   </div>
-</div>
+  </div> -->
 
 <div class=\"lt-vertical-spacer\"></div>
 <div class=\"lt-vertical-spacer\"></div>

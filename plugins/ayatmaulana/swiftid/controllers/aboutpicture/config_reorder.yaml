@@ -1,0 +1,4 @@
+title: AboutPicture
+modelClass: AyatMaulana\Swiftid\Models\AboutPicture
+toolbar:
+    buttons: reorder_toolbar

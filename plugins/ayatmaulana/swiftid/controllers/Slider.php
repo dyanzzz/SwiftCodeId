@@ -14,6 +14,6 @@ class Slider extends Controller
     public function __construct()
     {
         parent::__construct();
-        BackendMenu::setContext('AyatMaulana.Swiftid', 'swiftid');
+        BackendMenu::setContext('AyatMaulana.Swiftid', 'swiftid','slider');
     }
 }

@@ -1,0 +1,11 @@
+list: $/ayatmaulana/swiftid/models/whatwedo/columns.yaml
+modelClass: AyatMaulana\Swiftid\Models\WhatWeDo
+title: WhatWeDo
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'ayatmaulana/swiftid/whatwedo/update/:id'

@@ -1,0 +1,4 @@
+title: AboutDesc
+modelClass: AyatMaulana\Swiftid\Models\AboutDesc
+toolbar:
+    buttons: reorder_toolbar

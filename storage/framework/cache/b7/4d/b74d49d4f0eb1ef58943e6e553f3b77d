@@ -1,4 +1,4 @@
-1506267383a:1:{s:24:"pages-home/slideshow.htm";a:6:{s:8:"fileName";s:24:"pages-home/slideshow.htm";s:7:"content";s:1337:"[builderList blogs]
+1506312628a:1:{s:24:"pages-home/slideshow.htm";a:6:{s:8:"fileName";s:24:"pages-home/slideshow.htm";s:7:"content";s:1346:"[builderList blogs]
 modelClass = "AyatMaulana\Swiftid\Models\HomeSlider"
 scope = "-"
 displayColumn = "slider_title"
@@ -21,12 +21,12 @@ pageNumber = "{{ :page }}"
           <div class="caption center-align">
             <h2 class="lt-slider-title">{{ blog.slider_title }}</h2>
             <h5 class="lt-slider-subtitle">{{ blog.slider_desc }}</h5>
-            <div class="lt-slider-button">
+            <!-- <div class="lt-slider-button">
               <a href="https://octobercms.com/theme/laratify-octobercms-octaskin" target="_blank" class="waves-effect waves-light btn-large primary-color-background">Download<i class="material-icons right">input</i></a>
             </div>
             <div class="lt-slider-links">
               <a href="https://m.do.co/c/396efaba7c20" target="_blank">View Server</a> or <a href="https://www.laratify.com/" target="_blank">Contact Us</a>
-            </div>
+            </div> -->
           </div>
         </li>
        
@@ -35,7 +35,7 @@ pageNumber = "{{ :page }}"
       </ul>
     </div>
   </div>
-</div>";s:5:"mtime";i:1505900064;s:6:"markup";s:1108:"<div class="lt-row row">
+</div>";s:5:"mtime";i:1506311310;s:6:"markup";s:1117:"<div class="lt-row row">
   
   
   <div class="lt-col col s12">
@@ -49,12 +49,12 @@ pageNumber = "{{ :page }}"
           <div class="caption center-align">
             <h2 class="lt-slider-title">{{ blog.slider_title }}</h2>
             <h5 class="lt-slider-subtitle">{{ blog.slider_desc }}</h5>
-            <div class="lt-slider-button">
+            <!-- <div class="lt-slider-button">
               <a href="https://octobercms.com/theme/laratify-octobercms-octaskin" target="_blank" class="waves-effect waves-light btn-large primary-color-background">Download<i class="material-icons right">input</i></a>
             </div>
             <div class="lt-slider-links">
               <a href="https://m.do.co/c/396efaba7c20" target="_blank">View Server</a> or <a href="https://www.laratify.com/" target="_blank">Contact Us</a>
-            </div>
+            </div> -->
           </div>
         </li>
        

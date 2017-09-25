@@ -1,0 +1,10 @@
+name: AboutPicture
+form: $/ayatmaulana/swiftid/models/aboutpicture/fields.yaml
+modelClass: AyatMaulana\Swiftid\Models\AboutPicture
+defaultRedirect: ayatmaulana/swiftid/aboutpicture
+create:
+    redirect: 'ayatmaulana/swiftid/aboutpicture/update/:id'
+    redirectClose: ayatmaulana/swiftid/aboutpicture
+update:
+    redirect: ayatmaulana/swiftid/aboutpicture
+    redirectClose: ayatmaulana/swiftid/aboutpicture

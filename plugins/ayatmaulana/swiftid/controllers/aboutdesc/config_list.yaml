@@ -1,0 +1,11 @@
+list: $/ayatmaulana/swiftid/models/aboutdesc/columns.yaml
+modelClass: AyatMaulana\Swiftid\Models\AboutDesc
+title: AboutDesc
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'ayatmaulana/swiftid/aboutdesc/update/:id'

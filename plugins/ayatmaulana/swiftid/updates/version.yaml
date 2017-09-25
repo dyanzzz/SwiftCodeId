@@ -15,3 +15,12 @@
 1.0.6:
     - 'Created table ayatmaulana_swiftid_find_us'
     - builder_table_create_ayatmaulana_swiftid_find_us.php
+1.0.7:
+    - 'Created table ayatmaulana_swiftid_whatwedo'
+    - builder_table_create_ayatmaulana_swiftid_whatwedo.php
+1.0.8:
+    - 'Created table ayatmaulana_swiftid_aboutpicture'
+    - builder_table_create_ayatmaulana_swiftid_aboutpicture.php
+1.0.9:
+    - 'Created table ayatmaulana_swiftid_aboutdesc'
+    - builder_table_create_ayatmaulana_swiftid_aboutdesc.php

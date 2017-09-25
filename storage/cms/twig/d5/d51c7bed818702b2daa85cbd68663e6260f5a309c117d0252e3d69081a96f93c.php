@@ -44,12 +44,12 @@ class __TwigTemplate_12b41d664f67f2807dcc5ee6dc0ea74e5bca4665127d40427bcbce68535
             // line 14
             echo twig_escape_filter($this->env, $this->getAttribute($context["blog"], "slider_desc", array()), "html", null, true);
             echo "</h5>
-            <div class=\"lt-slider-button\">
+            <!-- <div class=\"lt-slider-button\">
               <a href=\"https://octobercms.com/theme/laratify-octobercms-octaskin\" target=\"_blank\" class=\"waves-effect waves-light btn-large primary-color-background\">Download<i class=\"material-icons right\">input</i></a>
             </div>
             <div class=\"lt-slider-links\">
               <a href=\"https://m.do.co/c/396efaba7c20\" target=\"_blank\">View Server</a> or <a href=\"https://www.laratify.com/\" target=\"_blank\">Contact Us</a>
-            </div>
+            </div> -->
           </div>
         </li>
        
@@ -105,12 +105,12 @@ class __TwigTemplate_12b41d664f67f2807dcc5ee6dc0ea74e5bca4665127d40427bcbce68535
           <div class=\"caption center-align\">
             <h2 class=\"lt-slider-title\">{{ blog.slider_title }}</h2>
             <h5 class=\"lt-slider-subtitle\">{{ blog.slider_desc }}</h5>
-            <div class=\"lt-slider-button\">
+            <!-- <div class=\"lt-slider-button\">
               <a href=\"https://octobercms.com/theme/laratify-octobercms-octaskin\" target=\"_blank\" class=\"waves-effect waves-light btn-large primary-color-background\">Download<i class=\"material-icons right\">input</i></a>
             </div>
             <div class=\"lt-slider-links\">
               <a href=\"https://m.do.co/c/396efaba7c20\" target=\"_blank\">View Server</a> or <a href=\"https://www.laratify.com/\" target=\"_blank\">Contact Us</a>
-            </div>
+            </div> -->
           </div>
         </li>
        

@@ -1,0 +1,4 @@
+title: WhatWeDo
+modelClass: AyatMaulana\Swiftid\Models\WhatWeDo
+toolbar:
+    buttons: reorder_toolbar

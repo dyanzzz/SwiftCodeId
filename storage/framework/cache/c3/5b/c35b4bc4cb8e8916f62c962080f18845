@@ -1,4 +1,4 @@
-1506267383a:1:{s:24:"pages-all/navigation.htm";a:6:{s:8:"fileName";s:24:"pages-all/navigation.htm";s:7:"content";s:1272:"==
+1506326012a:1:{s:24:"pages-all/navigation.htm";a:6:{s:8:"fileName";s:24:"pages-all/navigation.htm";s:7:"content";s:1264:"==
 <div class="lt-navbar navbar-fixed">
   <nav class="lt-no-background">
     <div class="nav-wrapper">
@@ -8,19 +8,19 @@
         <ul class="right hide-on-med-and-down">
           <li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'home'|page }}">Home</a></li>
           <li class="{% if this.page.id == 'about' %}active{% endif %}"><a href="{{ 'about'|page }}">About</a></li>
-          <li class="{% if this.page.id == 'portfolio' %}active{% endif %}"><a href="{{ 'portfolio'|page }}">Article</a></li>
+          <li class="{% if this.page.id == 'article' %}active{% endif %}"><a href="{{ 'article'|page }}">Article</a></li>
           
         </ul>
         <ul class="side-nav" id="mobile-menu">
           <li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'home'|page }}">Home</a></li>
           <li class="{% if this.page.id == 'about' %}active{% endif %}"><a href="{{ 'about'|page }}">About</a></li>
-          <li class="{% if this.page.id == 'portfolio' %}active{% endif %}"><a href="{{ 'portfolio'|page }}">Article</a></li>
+          <li class="{% if this.page.id == 'article' %}active{% endif %}"><a href="{{ 'article'|page }}">Article</a></li>
           
         </ul>
       </div>
     </div>
   </nav>
-</div>";s:5:"mtime";i:1505882562;s:6:"markup";s:1269:"<div class="lt-navbar navbar-fixed">
+</div>";s:5:"mtime";i:1506311076;s:6:"markup";s:1261:"<div class="lt-navbar navbar-fixed">
   <nav class="lt-no-background">
     <div class="nav-wrapper">
       <div class="lt-container container">
@@ -29,13 +29,13 @@
         <ul class="right hide-on-med-and-down">
           <li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'home'|page }}">Home</a></li>
           <li class="{% if this.page.id == 'about' %}active{% endif %}"><a href="{{ 'about'|page }}">About</a></li>
-          <li class="{% if this.page.id == 'portfolio' %}active{% endif %}"><a href="{{ 'portfolio'|page }}">Article</a></li>
+          <li class="{% if this.page.id == 'article' %}active{% endif %}"><a href="{{ 'article'|page }}">Article</a></li>
           
         </ul>
         <ul class="side-nav" id="mobile-menu">
           <li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'home'|page }}">Home</a></li>
           <li class="{% if this.page.id == 'about' %}active{% endif %}"><a href="{{ 'about'|page }}">About</a></li>
-          <li class="{% if this.page.id == 'portfolio' %}active{% endif %}"><a href="{{ 'portfolio'|page }}">Article</a></li>
+          <li class="{% if this.page.id == 'article' %}active{% endif %}"><a href="{{ 'article'|page }}">Article</a></li>
           
         </ul>
       </div>

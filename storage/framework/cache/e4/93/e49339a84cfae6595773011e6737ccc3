@@ -1,9 +1,8 @@
-1506267650a:1:{s:13:"portfolio.htm";a:9:{s:8:"fileName";s:13:"portfolio.htm";s:7:"content";s:533:"title = "Portfolio"
-url = "/portfolio"
+1506326004a:1:{s:13:"portfolio.htm";a:9:{s:8:"fileName";s:13:"portfolio.htm";s:7:"content";s:541:"title = "Article"
+url = "/article"
 layout = "octaskin"
 is_hidden = 0
 ==
-
 <section id="lt-header" class="lt-section lt-section-fullwidth section">
   <div class="lt-container container">
     <div class="lt-content lt-header-content">
@@ -18,8 +17,7 @@ is_hidden = 0
       {% partial "pages-portfolio/mainpage" %}
     </div>
   </div>
-</section>
-";s:5:"mtime";i:1505881523;s:6:"markup";s:455:"<section id="lt-header" class="lt-section lt-section-fullwidth section">
+</section>";s:5:"mtime";i:1506311057;s:6:"markup";s:469:"<section id="lt-header" class="lt-section lt-section-fullwidth section">
   <div class="lt-container container">
     <div class="lt-content lt-header-content">
       {% partial "pages-portfolio/header" %}
@@ -33,4 +31,4 @@ is_hidden = 0
       {% partial "pages-portfolio/mainpage" %}
     </div>
   </div>
-</section>";s:4:"code";N;s:5:"title";s:9:"Portfolio";s:3:"url";s:10:"/portfolio";s:6:"layout";s:8:"octaskin";s:9:"is_hidden";s:1:"0";}}
+</section>";s:4:"code";N;s:5:"title";s:7:"Article";s:3:"url";s:8:"/article";s:6:"layout";s:8:"octaskin";s:9:"is_hidden";s:1:"0";}}

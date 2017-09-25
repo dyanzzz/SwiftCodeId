@@ -1,0 +1,10 @@
+name: WhatWeDo
+form: $/ayatmaulana/swiftid/models/whatwedo/fields.yaml
+modelClass: AyatMaulana\Swiftid\Models\WhatWeDo
+defaultRedirect: ayatmaulana/swiftid/whatwedo
+create:
+    redirect: 'ayatmaulana/swiftid/whatwedo/update/:id'
+    redirectClose: ayatmaulana/swiftid/whatwedo
+update:
+    redirect: ayatmaulana/swiftid/whatwedo
+    redirectClose: ayatmaulana/swiftid/whatwedo

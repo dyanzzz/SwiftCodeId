@@ -1,0 +1,10 @@
+name: AboutDesc
+form: $/ayatmaulana/swiftid/models/aboutdesc/fields.yaml
+modelClass: AyatMaulana\Swiftid\Models\AboutDesc
+defaultRedirect: ayatmaulana/swiftid/aboutdesc
+create:
+    redirect: 'ayatmaulana/swiftid/aboutdesc/update/:id'
+    redirectClose: ayatmaulana/swiftid/aboutdesc
+update:
+    redirect: ayatmaulana/swiftid/aboutdesc
+    redirectClose: ayatmaulana/swiftid/aboutdesc

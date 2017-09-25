@@ -1,0 +1,6 @@
+fields:
+    desc:
+        label: Desc
+        oc.commentPosition: ''
+        span: full
+        type: text

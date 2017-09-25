@@ -14,6 +14,6 @@ class Testimoni extends Controller
     public function __construct()
     {
         parent::__construct();
-        BackendMenu::setContext('AyatMaulana.Swiftid', 'swiftid', 'slider');
+        BackendMenu::setContext('AyatMaulana.Swiftid', 'swiftid', 'testimoni');
     }
 }

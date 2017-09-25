@@ -1,4 +1,5 @@
-1506267973a:1:{s:28:"pages-portfolio/mainpage.htm";a:5:{s:8:"fileName";s:28:"pages-portfolio/mainpage.htm";s:7:"content";s:5218:"<div class="center">
+1506311766a:1:{s:28:"pages-portfolio/mainpage.htm";a:6:{s:8:"fileName";s:28:"pages-portfolio/mainpage.htm";s:7:"content";s:5367:"==
+<div class="center">
   <div class="lt-row row">
     <div class="lt-col col s12">
       <h2 class="lt-title">What We Did</h2>
@@ -8,7 +9,7 @@
 
   <div class="lt-vertical-spacer"></div>
 
-  <div class="lt-row row">
+  <!-- <div class="lt-row row">
     <div class="lt-col col m4 s12">
       <i class="large pe-7s-diamond primary-color-text"></i>
       <h5>Vectors</h5>
@@ -28,7 +29,7 @@
       <h2 class="lt-title primary-color-text">256</h2>
     </div>
   </div>
-</div>
+  </div> -->
 
 <div class="lt-vertical-spacer"></div>
 <div class="lt-vertical-spacer"></div>
@@ -134,8 +135,7 @@
       </div>
     </div>
   </div>
-</div>
-";s:5:"mtime";i:1505881523;s:6:"markup";s:5217:"<div class="center">
+</div>";s:5:"mtime";i:1506311165;s:6:"markup";s:5364:"<div class="center">
   <div class="lt-row row">
     <div class="lt-col col s12">
       <h2 class="lt-title">What We Did</h2>
@@ -145,7 +145,7 @@
 
   <div class="lt-vertical-spacer"></div>
 
-  <div class="lt-row row">
+  <!-- <div class="lt-row row">
     <div class="lt-col col m4 s12">
       <i class="large pe-7s-diamond primary-color-text"></i>
       <h5>Vectors</h5>
@@ -165,7 +165,7 @@
       <h2 class="lt-title primary-color-text">256</h2>
     </div>
   </div>
-</div>
+  </div> -->
 
 <div class="lt-vertical-spacer"></div>
 <div class="lt-vertical-spacer"></div>
@@ -271,4 +271,4 @@
       </div>
     </div>
   </div>
-</div>";s:4:"code";N;}}
+</div>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}
