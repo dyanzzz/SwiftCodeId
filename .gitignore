@@ -1,2 +1,6 @@
 .DS_Store
 *.log
+*/storage/
+*/vendor/
+*/install_files/
+*/bower_components/
