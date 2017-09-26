@@ -1,4 +1,4 @@
-1506332544a:1:{s:13:"portfolio.htm";a:9:{s:8:"fileName";s:13:"portfolio.htm";s:7:"content";s:541:"title = "Article"
+1506332758a:1:{s:11:"article.htm";a:9:{s:8:"fileName";s:11:"article.htm";s:7:"content";s:541:"title = "Article"
 url = "/article"
 layout = "octaskin"
 is_hidden = 0
@@ -17,7 +17,7 @@ is_hidden = 0
       {% partial "pages-portfolio/mainpage" %}
     </div>
   </div>
-</section>";s:5:"mtime";i:1506311057;s:6:"markup";s:469:"<section id="lt-header" class="lt-section lt-section-fullwidth section">
+</section>";s:5:"mtime";i:1506332157;s:6:"markup";s:469:"<section id="lt-header" class="lt-section lt-section-fullwidth section">
   <div class="lt-container container">
     <div class="lt-content lt-header-content">
       {% partial "pages-portfolio/header" %}
