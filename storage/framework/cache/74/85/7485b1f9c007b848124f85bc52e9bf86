@@ -1,0 +1,94 @@
+1513682266a:1:{s:11:"contact.htm";a:9:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:1371:"title = "Contact"
+url = "/contact"
+layout = "octaskin"
+is_hidden = 0
+==
+<?php
+function onSendMail(){
+
+    $name  = !empty(post('name')) ? post('name') : "" ;
+    $email  = !empty(post('email')) ? post('email') : "" ;
+    $phone  = !empty(post('phone')) ? post('phone') : "" ;
+    $subject  = !empty(post('subject')) ? post('subject') : "" ;
+    $contentMsg  = !empty(post('message')) ? post('message') : "" ;
+
+    if(empty($name) || empty($email) || empty($subject) || empty($contentMsg)){
+      return "error";
+    }
+
+    Mail::send('mail.contactus', array(
+      'name' => $name,
+      'email' => $email,
+      'phone' => $phone,
+      'subject' => $subject,
+      'content_message' => $contentMsg
+    ), function($message) {
+        $message->from(post('email'),post('name'));
+        $message->to(post('sendto'),post('sendto'));
+        $message->subject(post('subject'));
+
+    });
+
+    return "success";
+
+}
+?>
+==
+
+<section id="lt-header" class="lt-section lt-section-fullwidth section">
+  <div class="lt-container container">
+    <div class="lt-content lt-header-content">
+      {% partial "pages-contact/header" %}
+    </div>
+  </div>
+</section>
+
+<section id="lt-mainpage" class="lt-section section">
+  <div class="lt-container container">
+    <div class="lt-content lt-mainpage-content">
+      {% partial "pages-contact/mainpage" %}
+    </div>
+  </div>
+</section>
+";s:5:"mtime";i:1513681173;s:6:"markup";s:451:"<section id="lt-header" class="lt-section lt-section-fullwidth section">
+  <div class="lt-container container">
+    <div class="lt-content lt-header-content">
+      {% partial "pages-contact/header" %}
+    </div>
+  </div>
+</section>
+
+<section id="lt-mainpage" class="lt-section section">
+  <div class="lt-container container">
+    <div class="lt-content lt-mainpage-content">
+      {% partial "pages-contact/mainpage" %}
+    </div>
+  </div>
+</section>";s:4:"code";s:833:"function onSendMail(){
+
+    $name  = !empty(post('name')) ? post('name') : "" ;
+    $email  = !empty(post('email')) ? post('email') : "" ;
+    $phone  = !empty(post('phone')) ? post('phone') : "" ;
+    $subject  = !empty(post('subject')) ? post('subject') : "" ;
+    $contentMsg  = !empty(post('message')) ? post('message') : "" ;
+
+    if(empty($name) || empty($email) || empty($subject) || empty($contentMsg)){
+      return "error";
+    }
+
+    Mail::send('mail.contactus', array(
+      'name' => $name,
+      'email' => $email,
+      'phone' => $phone,
+      'subject' => $subject,
+      'content_message' => $contentMsg
+    ), function($message) {
+        $message->from(post('email'),post('name'));
+        $message->to(post('sendto'),post('sendto'));
+        $message->subject(post('subject'));
+
+    });
+
+    return "success";
+
+}";s:5:"title";s:7:"Contact";s:3:"url";s:8:"/contact";s:6:"layout";s:8:"octaskin";s:9:"is_hidden";s:1:"0";}}

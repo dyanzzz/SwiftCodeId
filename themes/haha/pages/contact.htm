@@ -3,6 +3,37 @@ url = "/contact"
 layout = "octaskin"
 is_hidden = 0
 ==
+<?php
+function onSendMail(){
+
+    $name  = !empty(post('name')) ? post('name') : "" ;
+    $email  = !empty(post('email')) ? post('email') : "" ;
+    $phone  = !empty(post('phone')) ? post('phone') : "" ;
+    $subject  = !empty(post('subject')) ? post('subject') : "" ;
+    $contentMsg  = !empty(post('message')) ? post('message') : "" ;
+
+    if(empty($name) || empty($email) || empty($subject) || empty($contentMsg)){
+      return "error";
+    }
+
+    Mail::send('mail.contactus', array(
+      'name' => $name,
+      'email' => $email,
+      'phone' => $phone,
+      'subject' => $subject,
+      'content_message' => $contentMsg
+    ), function($message) {
+        $message->from(post('email'),post('name'));
+        $message->to(post('sendto'),post('sendto'));
+        $message->subject(post('subject'));
+
+    });
+
+    return "success";
+
+}
+?>
+==
 
 <section id="lt-header" class="lt-section lt-section-fullwidth section">
   <div class="lt-container container">

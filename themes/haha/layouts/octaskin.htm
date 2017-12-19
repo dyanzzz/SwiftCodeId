@@ -40,6 +40,21 @@ description = "Octaskin Layout"
       {{ this.theme.custom_css }}
       </style>
     {% endif %}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{ this.theme.jQuery_version }}/jquery.min.js"></script>
+    <script src="{{ ['assets/js/materialize.min.js','assets/js/theme.js']|theme }}"></script>
+
+    {% framework extras %}
+
+    {% partial "_addons/js" %}
+
+    {% scripts %}
+
+    {% if this.theme.custom_js %}
+      <script>
+      {{ this.theme.custom_js }}
+      </script>
+    {% endif %}
   </head>
   <body class="lt-theme-{{ this.theme.config.code }} lt-layout-{{ this.layout.id }} lt-page-{{ this.page.id }}">
     <div id="lt-page-surround">
@@ -64,21 +79,5 @@ description = "Octaskin Layout"
       </section>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{ this.theme.jQuery_version }}/jquery.min.js"></script>
-    <script src="{{ ['assets/js/materialize.min.js','assets/js/theme.js']|theme }}"></script>
-
-    {% if this.theme.load_octobercms_framework %}
-      {% framework extras %}
-    {% endif %}
-
-    {% partial "_addons/js" %}
-
-    {% scripts %}
-
-    {% if this.theme.custom_js %}
-      <script>
-      {{ this.theme.custom_js }}
-      </script>
-    {% endif %}
   </body>
 </html>

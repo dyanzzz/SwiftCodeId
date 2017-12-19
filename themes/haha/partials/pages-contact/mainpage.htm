@@ -1,22 +1,16 @@
 <div class="lt-row row">
   <div class="lt-col col s12">
-    <h2 class="lt-title">What We Do</h2>
-    <p class="flow-text">Octaskin provides general customer service via email and aims to respond to all queries within 24 hours.</p>
-    <p>Below is a sample of contact form to demo Materialize CSS form elements.</p>
+    <h2 class="lt-title">Contact Us</h2>
   </div>
 </div>
 
 <div class="lt-vertical-spacer"></div>
 
-<form class="col s12">
+<form class="col s12 contact-us-form">
   <div class="lt-row row">
-    <div class="input-field lt-col col s6">
-      <input type="text" class="validate" id="first_name">
-      <label for="first_name" class="active">First Name</label>
-    </div>
-    <div class="input-field lt-col col s6">
-      <input type="text" id="last_name">
-      <label for="last_name">Last Name</label>
+    <div class="input-field lt-col col s12">
+      <input type="text" class="validate" id="name">
+      <label for="name" class="active">Full Name</label>
     </div>
   </div>
   <div class="lt-row row">
@@ -27,45 +21,20 @@
   </div>
   <div class="lt-row row">
     <div class="input-field lt-col col s12">
-      <textarea id="textarea1" class="materialize-textarea"></textarea>
-      <label for="textarea1">Description</label>
+      <input type="text" class="validate" id="phone">
+      <label for="phone" class="active">Phone Number</label>
     </div>
   </div>
   <div class="lt-row row">
     <div class="input-field lt-col col s12">
-      <select multiple>
-        <option value="" disabled selected>Choose your option</option>
-        <option value="1">Option 1</option>
-        <option value="2">Option 2</option>
-        <option value="3">Option 3</option>
-      </select>
-      <label>Choose Option</label>
+      <input type="text" class="validate" id="subject">
+      <label for="subject" class="active">Subject</label>
     </div>
   </div>
   <div class="lt-row row">
-    <div class="lt-col col s12">
-      <div class="file-field input-field">
-        <div class="btn">
-          <span>File</span>
-          <input type="file" multiple>
-        </div>
-        <div class="file-path-wrapper">
-          <input class="file-path validate" type="text" placeholder="Upload one or more files">
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="lt-row row">
-    <div class="lt-col col s12">
-      <label for="datepicker">Set the Date</label>
-      <input type="date" class="datepicker" id="datepicker">
-    </div>
-  </div>
-
-  <div class="lt-row row">
-    <div class="lt-col col s12">
-      <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
-      <label for="filled-in-box">Send copy to my email</label>
+    <div class="input-field lt-col col s12">
+      <textarea name="message" id="textarea1" class="materialize-textarea"></textarea>
+      <label for="textarea1">Message</label>
     </div>
   </div>
 
@@ -73,7 +42,36 @@
 
   <div class="lt-row row">
     <div class="lt-col col s12">
-      <button class="btn-large waves-effect waves-light" type="submit" name="action">Submit <i class="material-icons right">send</i></button>
+      <button class="btn-large waves-effect waves-light" type="submit">Submit <i class="material-icons right">send</i></button>
     </div>
   </div>
 </form>
+
+<!-- /Main Content -->
+
+<script type="text/javascript">
+  $(document).ready(function() {
+
+      $(".contact-us-form").on('submit', function(e){
+          e.preventDefault();
+          var form = $(this);
+
+          $.request('onSendMail',{
+           data : {
+            sendto    : "ibrdrahim@gmail.com",
+            name    : form.find("input[name=name]").val(),
+            email   : form.find("input[name=email]").val(),
+            phone : form.find("input[name=phone]").val(),
+            subject : form.find("input[name=subject]").val(),
+            message : form.find("textarea[name=message]").val()
+           },
+           success : function(resp){
+            alert(resp.result)
+           },
+           error : function(resp){
+            alert(resp.result)
+           }
+          });
+      });
+  });
+</script>

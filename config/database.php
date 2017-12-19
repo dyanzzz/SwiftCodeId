@@ -54,9 +54,9 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => 'localhost',
+            'host'      => '127.0.0.1',
             'port'      => 3306,
-            'database'  => 'swiftlangid',
+            'database'  => 'swiftid',
             'username'  => 'root',
             'password'  => 'root',
             'charset'   => 'utf8',

@@ -1,0 +1,74 @@
+1513682266a:1:{s:24:"pages-home/extension.htm";a:6:{s:8:"fileName";s:24:"pages-home/extension.htm";s:7:"content";s:1343:"[builderList testimonials]
+modelClass = "AyatMaulana\Swiftid\Models\Testimoni"
+scope = "-"
+displayColumn = "testimoni"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+<div class="lt-row row">
+  <div class="lt-col col s12">
+    <h2 class="lt-title center">Users Voice</h2>
+  </div>
+</div>
+
+<div class="lt-row row">
+  <div class="col s12">
+    <div class="lt-owl-carousel owl-carousel owl-theme">
+    
+        
+        {% for testimonial in testimonials.records %}
+        
+        <div class="item">
+          <div class="lt-owl-carousel-item item">
+            <div class="lt-testimonial-container">
+              <div class="lt-testimonial-content flow-text">
+                <span>{{ testimonial.testimoni }}</span>
+              </div>
+              <div class="lt-testimonial-author">
+                <div class="lt-testimonial-author-img"><img class="circle responsive-img" src="{{ testimonial.picture.path }}" alt="user"></div>
+                <div class="lt-testimonial-author-name">{{ testimonial.name }}</div>
+                <div class="lt-testimonial-author-position">{{ testimonial.position }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+       {% endfor %}
+       
+    </div>
+  </div>
+</div>";s:5:"mtime";i:1513675827;s:6:"markup";s:1111:"<div class="lt-row row">
+  <div class="lt-col col s12">
+    <h2 class="lt-title center">Users Voice</h2>
+  </div>
+</div>
+
+<div class="lt-row row">
+  <div class="col s12">
+    <div class="lt-owl-carousel owl-carousel owl-theme">
+    
+        
+        {% for testimonial in testimonials.records %}
+        
+        <div class="item">
+          <div class="lt-owl-carousel-item item">
+            <div class="lt-testimonial-container">
+              <div class="lt-testimonial-content flow-text">
+                <span>{{ testimonial.testimoni }}</span>
+              </div>
+              <div class="lt-testimonial-author">
+                <div class="lt-testimonial-author-img"><img class="circle responsive-img" src="{{ testimonial.picture.path }}" alt="user"></div>
+                <div class="lt-testimonial-author-name">{{ testimonial.name }}</div>
+                <div class="lt-testimonial-author-position">{{ testimonial.position }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+       {% endfor %}
+       
+    </div>
+  </div>
+</div>";s:4:"code";N;s:24:"builderList testimonials";a:7:{s:10:"modelClass";s:36:"AyatMaulana\Swiftid\Models\Testimoni";s:5:"scope";s:1:"-";s:13:"displayColumn";s:9:"testimoni";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}}}

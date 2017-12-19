@@ -7,14 +7,16 @@
         <a href="#" data-activates="mobile-menu" class="lt-mobile-toggle button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'home'|page }}">Home</a></li>
-          <li class="{% if this.page.id == 'about' %}active{% endif %}"><a href="{{ 'about'|page }}">About</a></li>
+          <!-- <li class="{% if this.page.id == 'about' %}active{% endif %}"><a href="{{ 'about'|page }}">About</a></li> -->
           <li class="{% if this.page.id == 'article' %}active{% endif %}"><a href="{{ 'article'|page }}">Article</a></li>
+          <li class="{% if this.page.id == 'contact' %}active{% endif %}"><a href="{{ 'contact'|page }}">Contact Us</a></li>
           
         </ul>
         <ul class="side-nav" id="mobile-menu">
           <li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'home'|page }}">Home</a></li>
-          <li class="{% if this.page.id == 'about' %}active{% endif %}"><a href="{{ 'about'|page }}">About</a></li>
+          <!-- <li class="{% if this.page.id == 'about' %}active{% endif %}"><a href="{{ 'about'|page }}">About</a></li> -->
           <li class="{% if this.page.id == 'article' %}active{% endif %}"><a href="{{ 'article'|page }}">Article</a></li>
+          <li class="{% if this.page.id == 'contact' %}active{% endif %}"><a href="{{ 'contact'|page }}">Contact Us</a></li>
           
         </ul>
       </div>

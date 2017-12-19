@@ -4,9 +4,30 @@ fields:
         oc.commentPosition: ''
         span: full
         type: text
+    slider_url:
+        label: 'URL (Optional)'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    slider_button:
+        label: 'Button Text'
+        oc.commentPosition: ''
+        span: auto
+        default: 'Go To URL'
+        type: text
     slider_desc:
         label: 'Text area'
         size: large
         oc.commentPosition: ''
         span: full
         type: textarea
+    picture:
+        label: 'Slider Image'
+        oc.commentPosition: ''
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

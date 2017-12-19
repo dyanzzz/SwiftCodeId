@@ -25,4 +25,8 @@ class HomeSlider extends Model
      * @var string The database table used by the model.
      */
     public $table = 'ayatmaulana_swiftid_home_slider';
+    
+    public $attachOne = [
+        'picture' => 'System\Models\File'
+    ];
 }

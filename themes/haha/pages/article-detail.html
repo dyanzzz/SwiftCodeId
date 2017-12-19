@@ -1,0 +1,65 @@
+title = "Article Detail"
+url = "/article-detail/:slug"
+layout = "octaskin"
+description = "Article Detail"
+is_hidden = 0
+
+==
+
+<section id="lt-header" class="lt-section lt-section-fullwidth section">
+  <div class="lt-container container">
+    <div class="lt-content lt-header-content">
+      <div class="lt-row row">
+        <div class="lt-col col s12">
+          <div class="lt-parallax-header parallax-container" style="height: 400px;">
+            <div class="lt-parallax parallax"><img src="{{ record.featured_image.path}}" alt="image"></div>
+            <div class="lt-parallax-content">
+              <div class="valign-wrapper" style="height: 400px;">
+                <div class="valign">
+                  <h2 class="lt-title">Product Detail</h2>
+                  <p class="lt-subtitle flow-text">{{record.short_description |raw}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="lt-mainpage" class="lt-section section">
+  <div class="lt-container container">
+    <div class="lt-content lt-mainpage-content">
+      <div class="center">
+        <div class="lt-row row">
+          <div class="lt-col col s12">
+            <h2 class="lt-title">{{record.name}}</h2>
+            {{record.description | raw}}
+          </div>
+        </div>
+
+        <div class="lt-vertical-spacer"></div>
+
+          <div id="lightgallery">
+            {% for image in record.images %}
+              <a href="{{image.path}}">
+                  <img src="{{image.thumb(300, 300, { extension: 'png' })}}">
+              </a>
+            {%endfor%}
+          </div>
+
+        <!-- <div class="hide-on-small-only" style="height: 20px;"></div>
+
+        <div class="lt-row row">
+          <div class="lt-col col m6 s12">
+            <img class="responsive-img" alt="image" src="{{ 'assets/img/pages/about/mainpage/img-03.jpg'|theme }}">
+          </div>
+          <div class="lt-col col m6 s12">
+            <img class="responsive-img" alt="image" src="{{ 'assets/img/pages/about/mainpage/img-04.jpg'|theme }}">
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>

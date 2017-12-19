@@ -24,3 +24,6 @@
 1.0.9:
     - 'Created table ayatmaulana_swiftid_aboutdesc'
     - builder_table_create_ayatmaulana_swiftid_aboutdesc.php
+1.0.10:
+    - 'Updated table ayatmaulana_swiftid_home_slider'
+    - builder_table_update_ayatmaulana_swiftid_home_slider.php

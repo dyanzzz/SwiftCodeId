@@ -1,0 +1,127 @@
+1513682266a:1:{s:18:"article-detail.htm";a:11:{s:8:"fileName";s:18:"article-detail.htm";s:7:"content";s:2354:"title = "Article Detail"
+url = "/article/detail/:slug"
+layout = "octaskin"
+description = "Article Detail"
+is_hidden = 0
+
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = "about"
+==
+<section id="lt-header" class="lt-section lt-section-fullwidth section">
+  <div class="lt-container container">
+    <div class="lt-content lt-header-content">
+      <div class="lt-row row">
+        <div class="lt-col col s12">
+          <div class="lt-parallax-header parallax-container" style="height: 400px;">
+              {%if post.featured_images[0].path%}
+                <div class="lt-parallax parallax"><img src="{{ post.featured_images[0].path}}" alt="image"></div>
+              {%endif%}
+            <div class="lt-parallax-content">
+              <div class="valign-wrapper" style="height: 400px;">
+                <div class="valign">
+                  <h2 class="lt-title">Product Detail</h2>
+                  <p class="lt-subtitle flow-text">{{post.title |raw}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="lt-mainpage" class="lt-section section">
+  <div class="lt-container container">
+    <div class="lt-content lt-mainpage-content">
+      <div class="center">
+        <div class="lt-row row">
+          <div class="lt-col col s12">
+            <h2 class="lt-title">{{post.title}}</h2>
+            {{post.content | raw}}
+          </div>
+        </div>
+
+        <div class="lt-vertical-spacer"></div>
+
+          <div id="lightgallery">
+            {% for image in post.featured_images %}
+              <a href="{{image.path}}">
+                  <img src="{{image.thumb(300, 300, { extension: 'png' })}}">
+              </a>
+            {%endfor%}
+          </div>
+
+        <!-- <div class="hide-on-small-only" style="height: 20px;"></div>
+
+        <div class="lt-row row">
+          <div class="lt-col col m6 s12">
+            <img class="responsive-img" alt="image" src="{{ 'assets/img/pages/about/mainpage/img-03.jpg'|theme }}">
+          </div>
+          <div class="lt-col col m6 s12">
+            <img class="responsive-img" alt="image" src="{{ 'assets/img/pages/about/mainpage/img-04.jpg'|theme }}">
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>";s:5:"mtime";i:1513679655;s:6:"markup";s:2175:"<section id="lt-header" class="lt-section lt-section-fullwidth section">
+  <div class="lt-container container">
+    <div class="lt-content lt-header-content">
+      <div class="lt-row row">
+        <div class="lt-col col s12">
+          <div class="lt-parallax-header parallax-container" style="height: 400px;">
+              {%if post.featured_images[0].path%}
+                <div class="lt-parallax parallax"><img src="{{ post.featured_images[0].path}}" alt="image"></div>
+              {%endif%}
+            <div class="lt-parallax-content">
+              <div class="valign-wrapper" style="height: 400px;">
+                <div class="valign">
+                  <h2 class="lt-title">Product Detail</h2>
+                  <p class="lt-subtitle flow-text">{{post.title |raw}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="lt-mainpage" class="lt-section section">
+  <div class="lt-container container">
+    <div class="lt-content lt-mainpage-content">
+      <div class="center">
+        <div class="lt-row row">
+          <div class="lt-col col s12">
+            <h2 class="lt-title">{{post.title}}</h2>
+            {{post.content | raw}}
+          </div>
+        </div>
+
+        <div class="lt-vertical-spacer"></div>
+
+          <div id="lightgallery">
+            {% for image in post.featured_images %}
+              <a href="{{image.path}}">
+                  <img src="{{image.thumb(300, 300, { extension: 'png' })}}">
+              </a>
+            {%endfor%}
+          </div>
+
+        <!-- <div class="hide-on-small-only" style="height: 20px;"></div>
+
+        <div class="lt-row row">
+          <div class="lt-col col m6 s12">
+            <img class="responsive-img" alt="image" src="{{ 'assets/img/pages/about/mainpage/img-03.jpg'|theme }}">
+          </div>
+          <div class="lt-col col m6 s12">
+            <img class="responsive-img" alt="image" src="{{ 'assets/img/pages/about/mainpage/img-04.jpg'|theme }}">
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>";s:4:"code";N;s:5:"title";s:14:"Article Detail";s:3:"url";s:21:"/article/detail/:slug";s:6:"layout";s:8:"octaskin";s:11:"description";s:14:"Article Detail";s:9:"is_hidden";s:1:"0";s:8:"blogPost";a:2:{s:4:"slug";s:11:"{{ :slug }}";s:12:"categoryPage";s:5:"about";}}}
